@@ -24,5 +24,7 @@ spec:
         env: 
           - name: "DOCKER"
             value: "1"
+        securityContext:
+            privileged: true
       restartPolicy: Always
     
